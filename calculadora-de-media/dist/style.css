@@ -1,9 +1,9 @@
 body {
-  font-family: 'Roboto Mono',monospace;
+  font-family: 'Balsamiq Sans', cursive;
   min-height: 400px;
   background-image: url('https://image.flaticon.com/icons/png/512/201/201635.png');
-  background-color: #000000;
-  background-size: 80vh;
+  background-color: #11A1B8;
+  background-size: 20vh;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
@@ -33,4 +33,46 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+#resultado {
+  font-family: 'Balsamiq Sans', cursive;
+  color:#ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  width: 50%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#resultadoFinal {
+  font-family: 'Balsamiq Sans', cursive;
+  color:#ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  width: 50%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#botaoCalcular {
+  font-family: 'Balsamiq Sans', cursive;
+  color:#000000;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }

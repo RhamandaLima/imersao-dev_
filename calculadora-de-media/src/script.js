@@ -1,20 +1,36 @@
-var nome = "Guilherme"; 
-var notaDoPrimeiroBimestre = 9;
-var notaDoSegundoBimestre = 7; 
-var notaDoTerceiroBimestre = 4; 
-var notaDoQuartoBimestre = 2; 
- 
-var notaFinal = (notaDoPrimeiroBimestre + notaDoSegundoBimestre + notaDoTerceiroBimestre + notaDoQuartoBimestre) / 4; 
+var nome;
+var notaDoPrimeiroBimestre;
+var notaDoSegundoBimestre;
+var notaDoTerceiroBimestre;
+var notaDoQuartoBimestre;
+var notaMedia;
+var botaoCalcular = document.getElementById('botaoCalcular');
 
-var notaFixada = notaFinal.toFixed(1)
+function calcularMedia(){
+  nome = prompt("Olá! Informe o seu nome: ");
+  notaDoPrimeiroBimestre = prompt("Informe sua nota do primeiro bimestre: ");
+  notaDoSegundoBimestre = prompt("Informe sua nota do segundo bimestre: "); 
+  notaDoTerceiroBimestre = prompt("Informe sua nota do terceiro bimestre: "); 
+  notaDoQuartoBimestre = prompt("Informe sua nota do quarto bimestre: "); 
 
-document.write("Bem vindo, " + nome + "!" + "<br>")
-document.write("Sua média é " + notaFixada + "." + "<br>")
-
-if(notaFinal >= 7) {
-  document.write("Parabéns, você está aprovado!")
-} else {
-  document.write("Você foi reprovado.")
+  notaMedia = ((+notaDoPrimeiroBimestre + +notaDoSegundoBimestre + +notaDoTerceiroBimestre + +notaDoQuartoBimestre)/4).toFixed(1);
 }
+
+function mostraResultado(){
+  var resultado = document.getElementById('resultado')
+  resultado.innerHTML = nome + ", sua média é: " + notaMedia + ".";
+  
+  var resultadoFinal = document.getElementById('resultadoFinal')
+  if(notaMedia >= 7) {
+   resultadoFinal.innerHTML = "Parabéns, você está aprovado!";
+  } else {
+    resultadoFinal.innerHTML = "Você foi reprovado.";
+  }
+}
+
+botaoCalcular.addEventListener('click', function(e){
+  calcularMedia();
+  mostraResultado();
+});
 
 //Revisão: 1. Variáveis, strings, console.log, toFixed, operações matemáticas, concatenação. //
