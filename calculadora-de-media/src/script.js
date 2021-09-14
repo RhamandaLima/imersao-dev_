@@ -8,7 +8,13 @@ var notaFinal = (notaDoPrimeiroBimestre + notaDoSegundoBimestre + notaDoTerceiro
 
 var notaFixada = notaFinal.toFixed(1)
 
-console.log("Bem vindo, " + nome + "!")
-console.log("Sua média é " + notaFixada + ".")
+document.write("Bem vindo, " + nome + "!" + "<br>")
+document.write("Sua média é " + notaFixada + "." + "<br>")
+
+if(notaFinal >= 7) {
+  document.write("Parabéns, você está aprovado!")
+} else {
+  document.write("Você foi reprovado.")
+}
 
 //Revisão: 1. Variáveis, strings, console.log, toFixed, operações matemáticas, concatenação. //
