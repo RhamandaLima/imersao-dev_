@@ -35,6 +35,55 @@ body {
   right: 10px;
 }
 
+section {
+    width: 600px;
+    height: 300px;
+    font-family: 'Balsamiq Sans', cursive;
+    background: #43ADC4;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  
+}
+
+.input {
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+input {
+  color: black;
+  font-family: 'Balsamiq Sans', cursive;
+  width: 45%;
+  text-align: center;
+}
+
+#botaoCalcular {
+  font-family: 'Balsamiq Sans', cursive;
+  background: #238594;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;   
+  width: 35%;
+  height: 40px;
+  margin-right: 7px;   
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+#botaoCalcular:hover {
+    background-color: #EBCA3F;
+    cursor: pointer;
+}
+
 #resultado {
   font-family: 'Balsamiq Sans', cursive;
   color:#ffffff;
@@ -43,7 +92,7 @@ body {
   margin: auto;
   width: 50%;
   position: absolute;
-  top: 60%;
+  top: 73%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
@@ -57,21 +106,7 @@ body {
   margin: auto;
   width: 50%;
   position: absolute;
-  top: 70%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-
-#botaoCalcular {
-  font-family: 'Balsamiq Sans', cursive;
-  color:#000000;
-  text-align: center;
-  text-transform: uppercase;
-  margin: auto;
-  width: 20%;
-  position: absolute;
-  top: 50%;
+  top: 78%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)

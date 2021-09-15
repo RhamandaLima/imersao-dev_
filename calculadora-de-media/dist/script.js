@@ -1,30 +1,31 @@
-var nome;
-var notaDoPrimeiroBimestre;
-var notaDoSegundoBimestre;
-var notaDoTerceiroBimestre;
-var notaDoQuartoBimestre;
+var nome = document.getElementById('nome');
+var notaDoPrimeiroBimestre = document.getElementById('notaA');
+var notaDoSegundoBimestre = document.getElementById('notaB'); 
+var notaDoTerceiroBimestre = document.getElementById('notaC'); 
+var notaDoQuartoBimestre = document.getElementById('notaD'); 
 var notaMedia;
 var botaoCalcular = document.getElementById('botaoCalcular');
 
 function calcularMedia(){
-  nome = prompt("Olá! Informe o seu nome: ");
-  notaDoPrimeiroBimestre = prompt("Informe sua nota do primeiro bimestre: ");
-  notaDoSegundoBimestre = prompt("Informe sua nota do segundo bimestre: "); 
-  notaDoTerceiroBimestre = prompt("Informe sua nota do terceiro bimestre: "); 
-  notaDoQuartoBimestre = prompt("Informe sua nota do quarto bimestre: "); 
+  nomeDoAluno = nome.value;
+  primeiraNota = notaDoPrimeiroBimestre.value;
+  segundaNota =  notaDoSegundoBimestre.value; 
+  terceiraNota = notaDoTerceiroBimestre.value; 
+  quartaNota = notaDoQuartoBimestre.value; 
 
-  notaMedia = ((+notaDoPrimeiroBimestre + +notaDoSegundoBimestre + +notaDoTerceiroBimestre + +notaDoQuartoBimestre)/4).toFixed(1);
+  notaMedia = ((+primeiraNota + +segundaNota + +terceiraNota + +quartaNota)/4).toFixed(1);
+
 }
 
 function mostraResultado(){
   var resultado = document.getElementById('resultado')
-  resultado.innerHTML = nome + ", sua média é: " + notaMedia + ".";
+  resultado.innerHTML = nomeDoAluno + ", sua média é: " + notaMedia + ".";
   
   var resultadoFinal = document.getElementById('resultadoFinal')
   if(notaMedia >= 7) {
-   resultadoFinal.innerHTML = "Parabéns, você está aprovado!";
+   resultadoFinal.innerHTML = "Parabéns, você está aprovado(a)!";
   } else {
-    resultadoFinal.innerHTML = "Você foi reprovado.";
+    resultadoFinal.innerHTML = "Você foi reprovado(a).";
   }
 }
 
