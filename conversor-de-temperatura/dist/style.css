@@ -32,6 +32,12 @@ body {
   transform: translate(-50%, -50%)
 }
 
+input {
+  font-family: 'Balsamiq Sans', cursive;
+  color: black; 
+  text-align: right;
+}
+
 .alura-logo {
   width: 100px;
   position: absolute;
