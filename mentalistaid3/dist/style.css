@@ -1,0 +1,142 @@
+body {
+  font-family: "Bree Serif", serif;
+  min-height: 600px;
+  background: radial-gradient(white, #1C7599);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  line-height: 2;
+  min-block-size: fit-content;
+  padding: 100px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin: auto;
+  top: 20px;
+}
+
+hr {
+  border-width: 3px;
+}
+
+.linha {
+  border-width: 1.8px;
+}
+
+section {
+  width: 500px;
+  height: 650px;
+  margin: auto;
+  background-image: url("https://m.media-amazon.com/images/G/01/DeveloperBlogs/AppstoreBlogs/NathanRanneyblogposts/Image-PRNGbasics-1011.gif._CB483158115_.gif?t=true");
+  text-align: center;
+  background-size: 100%;
+  background-repeat: repeat;
+  line-height: 2;
+  min-block-size: fit-content;
+  border-radius: 5px;
+}
+
+.container {
+  width: auto;
+  height: 650px;
+  background: #1C7599;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  opacity: 0.95;
+}
+
+h2 {
+  color: white;
+  text-shadow: #3B2C61 0.1em 0.1em 0.2em;
+  font-size: 28px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+.divisoria {
+  width: auto;
+  margin: 0 auto;
+  padding: 5px 0;
+  position: relative;
+  text-align: center;
+}
+
+.divisoria li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+  height: 200px;
+  vertical-align: top;
+  background: #3B2C61;
+  margin: 2.3%;
+  padding: 30px 5px;
+  box-sizing: border-box;
+  border: none;
+  opacity: 1;
+  color: 237863;
+}
+
+.alura-logo {
+  width: 70px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  font-family: "Bree Serif", serif;
+  width: 300px;
+  margin: 4px;
+  padding: 6px;
+  border: 2px solid black;
+  background: white;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  font-family: "Bree Serif", serif;
+  color: black; 
+  width: 150px;
+  margin-top: 12px;
+  padding: 4px 8px;
+  background: white;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: #1C7599;
+  cursor: pointer;
+  color: white;
+}
+
+.resultado {
+  color: branco;
+  text-align: center;
+  padding: 23px;
+  margin-top: 5px;
+  font-size: 18px;
+}
