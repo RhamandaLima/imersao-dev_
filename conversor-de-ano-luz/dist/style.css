@@ -1,0 +1,130 @@
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  min-height: 600px;
+  background-image: url('https://www.publicdomainpictures.net/pictures/280000/velka/cosmos-background.jpg');
+  background-color: #ffffff;
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.caixa {
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+header {
+  background: black;
+  padding: 20px 0;
+  opacity: 0.87;
+  border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 23px;
+}
+
+.insereValor {
+  width: 940px;
+  height: 540px;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-family: 'Balsamiq Sans', cursive;
+  background: #554587;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  opacity: 0.9;
+}
+
+.insereValor li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  height: 450px;
+  vertical-align: top;
+  margin: 4%;
+  padding: 30px 5px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.insereValor li:hover {
+  border-color: #EBCA3F;
+}
+
+.insereValor li:hover h2 {
+  font-size: 25px;
+}
+
+input {
+  font-family: 'Balsamiq Sans', cursive;
+  background: #ffffff;
+  width: 100px;
+  margin: 20px;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+#botaoConverter, #botaoConverterEstrela {
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: black;
+  opacity: 0.87;
+}
+
+#botaoConverter:hover, #botaoConverterEstrela:hover {
+   background-color: #EBCA3F;
+   cursor: pointer;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    width: 100%;
+    height: 65px;
+    padding: 40px 0;
+    position: relative;
+    border-radius: 5px;
+    opacity: 0.87;
+}
