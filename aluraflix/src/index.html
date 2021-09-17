@@ -1,0 +1,48 @@
+<div class="container">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <h1 class="page-title">
+    <img src="https://fontmeme.com/permalink/210917/b37be7aa6237e4a08bf67da801df8df5.png" alt="netflix-font" border="0">
+  </h1>
+  <h2> Um catálogo para você registrar os seus filmes favoritos.</h2>
+</div>
+
+<div>
+  <form onsubmit="event.preventDefault();" id="caixa-formulario">
+    <div class="form">
+      <h3>ADICIONE O LINK DA IMAGEM DO SEU FILME FAVORITO</h3>
+      <label for="imagem-filme"></label>
+      <input type="text" id="imagem-filme">
+
+      <select id="select-categoria" required>
+        <option value selected disabled> Selecione a categoria</option>
+        <option value="drama">Drama</option>
+        <option value="comedia">Comédia</option>
+        <option value="romance">Romance</option>
+      </select>
+
+      <b><button type="submit" onclick="Enviar()"> Enviar</button>
+        <p id="mensagemErro"></p>
+    </div>
+  </form>
+</div>
+
+<div id="caixaFilmesDrama" class="caixaFilmes">
+  <hr color="#A5261F"></hr>
+  <h4> DRAMA </h4>
+</div>
+
+<div id="caixaFilmesComedia" class="caixaFilmes">
+  <hr color="#A5261F"></hr>
+  <h4> COMÉDIA </h4>
+</div>
+
+<div id="caixaFilmesRomance" class="caixaFilmes">
+  <hr color="#A5261F"></hr>
+  <h4> ROMANCE </h4>
+</div>
+
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</a>
+
+<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
