@@ -12,6 +12,7 @@ p {
   text-align: center;
   font-size: 15px;
 }
+
 .container {
   text-align: center;
   padding: 20px;
@@ -40,69 +41,84 @@ h2 {
 }
 
 h3 {
-  font-size: 23px;
+  font-size: 18px;
+  color: #da1e26;
+  text-align: left;
+  margin: none;
+  display: block;
 }
 
 .form {
   font-family: "Bebas Neue", cursive;
   margin: 0 0 10px;
+  color: #000000;
 }
 
 input {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  width: 21%;
   display: block;
-  margin: auto;
-  width: 30%;
-  border: solid;
-  outline: 0.2rem solid white;
+  margin: 0 auto;
+  padding: 10px 15px;
 }
 
 select {
   font-family: "Bebas Neue", cursive;
   text-align: center;
-  margin: 10px 0 0 0;
-  width: 20%;
+  margin-top: 22px;
+  width: 23%;
   height: 24px;
   font-size: 15px;
+  color: #000000;
 }
 
 button {
   font-family: "Bebas Neue", cursive;
   text-align: center;
-  width: 10%;
-  height: 25px;
-  font-size: 15px;
-  background-color: white;
+  border: 0;
+  color: #ffffff;
+  width: 11.3%;
+  background: #da1e26;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 0;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
   background-color: black;
-  color: #A5261F;
+  color: #a5261f;
 }
 
 #mensagemErro {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 1.5% 30% 1% 30%;
-    padding: 0 20px 0px 20px;
-    background: white;
-    color: black;
-    box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  width: 22%;
+  vertical-align: top;
+  margin: 1.5% 30% 1% 30%;
+  padding: 0 20px 0px 20px;
+  background: white;
+  color: black;
+  box-sizing: border-box;
 }
 
 h4 {
-  color: #A5261F;
+  color: #a5261f;
   text-align: left;
-  margin: 0;
-  
+  margin: none;
+  display: block;
 }
 
 .caixaFilmes {
   background: black;
   width: 100%;
-  margin: 5% 0 5% 0;
+  margin: 0 0 3% 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .page-logo {
@@ -129,3 +145,9 @@ img {
   transform: scale(1.2);
   box-shadow: 0px 0px 8px 1px #000;
 }*/
+
+figure {
+  color: #ffffff;
+  margin: 0.5rem;
+  transition: 0.2s;
+}

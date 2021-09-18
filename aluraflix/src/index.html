@@ -9,37 +9,46 @@
 <div>
   <form onsubmit="event.preventDefault();" id="caixa-formulario">
     <div class="form">
-      <h3>ADICIONE O LINK DA IMAGEM DO SEU FILME FAVORITO</h3>
+      <label for="nome-filme"></label>
+      <input type="text" id="nome-filme" placeholder="Adicione o nome do seu filme favorito"><br>
+
       <label for="imagem-filme"></label>
-      <input type="text" id="imagem-filme">
+      <input type="text" id="imagem-filme" placeholder="Adicione a URL do seu filme favorito">
 
       <select id="select-categoria" required>
-        <option value selected disabled> Selecione a categoria</option>
+        <option value selected disabled>Selecione a categoria</option>
         <option value="drama">Drama</option>
         <option value="comedia">Comédia</option>
         <option value="romance">Romance</option>
       </select>
 
-      <b><button type="submit" onclick="Enviar()"> Enviar</button>
-        <p id="mensagemErro"></p>
+      <br><br><button type="submit" onclick="enviar()"> Enviar</button>
+      <button type="submit" onclick="remover()"> Remover</button>
+      <p id="mensagemErro"></p>
     </div>
   </form>
-</div>
 
+</div>
+<hr color="#da1e26">
+</hr>
+<h3> DRAMA </h3>
 <div id="caixaFilmesDrama" class="caixaFilmes">
-  <hr color="#A5261F"></hr>
-  <h4> DRAMA </h4>
-</div>
 
+</div>
+<hr color="#da1e26">
+</hr>
+<h3> COMÉDIA </h3>
 <div id="caixaFilmesComedia" class="caixaFilmes">
-  <hr color="#A5261F"></hr>
-  <h4> COMÉDIA </h4>
-</div>
 
-<div id="caixaFilmesRomance" class="caixaFilmes">
-  <hr color="#A5261F"></hr>
-  <h4> ROMANCE </h4>
 </div>
+<hr color="#da1e26">
+</hr>
+<h3> ROMANCE </h3>
+<div id="caixaFilmesRomance" class="caixaFilmes">
+
+</div>
+<hr color="#da1e26">
+</hr>
 
 <a href="https://alura.com.br/" target="_blank">
   <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
