@@ -1,52 +1,50 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>CodePen - Conversor de Moedas</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&display=swap" rel="stylesheet">
-  </head>
-  
-  <body>
-    <header> 
-      <div class="caixa"> 
-        <h1 class="page-title">
-         CONVERSOR DE MOEDAS
-        </h1>
-        <p class="page-subtitle">
-          Descubra os valores convertidos simultaneamente!
-        </p>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br>
-      </div>        
-    </header>
-       
-    <main> 
-      <ul class="insereValor"> 
-        <li> 
-           <h2> REAIS(R$) </h2> 
-           <label for="moeda">Insira o valor</label><br>
-           <input type="text" id="valorReal" size="2" placeholder="R$ 0,00."/><br>          
-        </li>
-        <li>
-           <h2> DÓLAR(U$) </h2> 
-           <label for="moeda">Insira o valor</label><br>
-           <input type="text" id="valorDolar" size="2" placeholder="US$ 0,00."/><br>   
-        </li>
-        <li> 
-           <h2> EURO(EUR)</h2> 
-           <label for="moeda">Insira o valor</label><br>
-           <input type="text" id="valorEuro" size="2" placeholder="€ 0,00."/><br>         
-        </li>
-        <li> 
-          <h2> BITCOIN </h2> 
-           <label for="moeda">Insira o valor</label><br>
-           <input type="text" id="valorBit" size="2" placeholder="₿ 0,00."/><br>          
-        </li>
-      </ul> 
-    </main>
+<html>
 
-    <footer>
-      <a href="https://alura.com.br/" target="_blank">
-      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="">
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Moedas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <section class="converteMoeda">
+      <p class="title">Conversor de Moedas
+        <p />
+      <img class="logo-imersao-dev" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" alt="">
+        <label class="tipo" for="moeda">de:</label>
+      <section class="moedaDeEntrada">
+        <div>
+          <select class="moedaAConverter" id="moedaRecebida" name="moeda">
+            <option value="reais">REAIS(R$)</option>
+            <option value="dolar">DÓLAR(U$)</option>
+            <option value="euro">EUR</option>
+            <option value="bitcoin">BITCOIN(₿)</option>
+          </select>
+        </div>
+        <div>
+          <input id="valorMoedaRecebida" type="number" placeholder="0.00" required autofocus>
+        </div>
+      </section>
+      <label class="tipo" for="valorASer">para:</label>
+      <section class="moedaConvertida">
+        <div>
+          <select class="converterPara" id="moedaEntregue" name="moeda">
+            <option value="reais">REAIS(R$)</option>
+            <option value="dolar">DÓLAR(U$)</option>
+            <option value="euro">EUR</option>
+            <option value="bitcoin">BITCOIN(₿)</option>
+          </select>
+        </div>
+        <div>
+          <p id="resultado">0.00</p <p>
+          </p>
+        </div>
+      </section>
+      <a class="logo-alura" href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
+      <button onclick="converter()">Converter</button>
+    </section>
+  </main>
+</body>
+
 </html>
