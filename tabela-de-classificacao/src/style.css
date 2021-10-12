@@ -1,0 +1,90 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: 'Righteous', cursive;
+  min-height: 400px;
+  background-image: url("https://i1.wp.com/twinpixelvideo.com/wp-content/uploads/2015/04/gradient-wallpapers-desktop-gradient-grey-wallpaper-generator-iphone-5-android-maker-wallpapers-hd-ios-7-deviantart-ipad.jpg?fit=1920%2C1200&ssl=1");
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+table {
+  border: 3px solid #98A1E4;
+  border-collapse: collapse;
+  padding: 50px;
+}
+
+h1 {
+  color: white;
+  margin: 70px;
+}
+
+th,
+tr,
+td {
+  border: solid 1px #98A1E4;
+  color: white; 
+  text-transform: uppercase;
+  margin: 50px;
+}
+
+input {
+  font-family: 'Righteous', cursive;
+  color: white;
+  background: #1F2A3D;
+  border: solid 1px #98A1E4;
+  border-radius: 5px;
+  width: 200px;
+  padding: 5px;
+}
+
+#novo-jogo, #btn {
+  font-family: 'Righteous', cursive;
+  border: 20px;
+  color: #1F2A3D;
+  background: #ffffff;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+#novo-jogo:hover {
+  opacity: 0.8;
+  font-size: 16px;
+  color: white; 
+  background: #98A1E4;
+}
+
+#btn:hover {
+  opacity: 0.8;
+}
+
+.buttonAdicionar {
+  font-family: 'Righteous', cursive;
+  font-size: 15px;
+  background: #F6FCFF;
+  border: none;
+  cursor: pointer;
+  color: #191C7D;
+}
+
+.buttonAdicionar:hover {
+  opacity: 0.8;
+}
+
+.alura-logo {
+  width: 70px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
