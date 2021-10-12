@@ -1,7 +1,7 @@
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Aldrich", sans-serif;
   min-height: 854px;
-  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png");
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2014/02/12/252775/e95e13239697b9403e2ef21722db6b57.jpg");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -16,20 +16,32 @@ body {
 
 .page-title {
   color: #ffffff;
-  margin: 5px 0;
+  margin: 40px;
 }
 
 button,
 .button-jogar {
   padding: 0.8rem 1.5rem;
-  margin: 1rem 0;
+  margin: 3rem 0;
   border-radius: 5px;
   border: none;
   font-size: 1rem;
+  font-family: "Aldrich", sans-serif;
+  color: #ffffff;
+  background: #2a3136;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #2a3136;
+  background: #ffffff;
+  border: 1.5px solid #2a3136;
 }
 
 h2 {
-  color: white;
+  color: #2a3136;
+  text-transform: uppercase;
 }
 
 #carta-jogador,
@@ -68,8 +80,9 @@ h2 {
 .carta-status {
   height: 160px;
   margin: 2rem;
-  color: white;
+  color: #f7f7f7;
   z-index: 2;
+  text-align: left;
 }
 
 .carta-status input {
@@ -118,4 +131,13 @@ form {
 
 .carta-status p {
   margin-bottom: 2rem;
+}
+
+.page-logo {
+  text-align: center;
+  padding: 20px;
+}
+
+.img-logo {
+  width: 200px;
 }
