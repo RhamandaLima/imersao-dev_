@@ -283,7 +283,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 **Desafios propostos na aula 09:**
 
-- Terminar todo o design que está no figma (disponível abaixo);
+- Terminar todo o design que está no figma;
 - Adicionar suas redes sociais de forma que quem clique consiga abrí-las.
 
 **Implementação e resultado dos desafios:**
