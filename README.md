@@ -54,7 +54,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/GREEzMq">
-<img src="Calculadora de média (Aula 01)/src/calculadora-de-media.gif" width="600px"/>
+<img src="Calculadora de média (Aula 01)/src/calculadora-de-media.gif" width="800px"/>
 </a>
 </div>
 
@@ -82,7 +82,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/zYzEJpo">
-<img src="Conversor de moedas (Aulas 02 e 05)/src/conversor-moeda-v1.gif" width="600px"/>
+<img src="Conversor de moedas (Aulas 02 e 05)/src/conversor-moeda-v1.gif" width="800px"/>
 </a>
 </div>
 
@@ -90,7 +90,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/KKqyBBe">
-<img src="Conversor de anos-luz (Aula 02)/src/conversor-ano-luz.gif" width="600px"/>
+<img src="Conversor de anos-luz (Aula 02)/src/conversor-ano-luz.gif" width="800px"/>
 </a>
 </div>
 
@@ -98,7 +98,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/PojJmbo">
-<img src="Conversor de temperatura (Aulas 01 e 02)/src/conversor-temperatura.gif" width="600px"/>
+<img src="Conversor de temperatura (Aulas 01 e 02)/src/conversor-temperatura.gif" width="800px"/>
 </a>
 </div>
 
@@ -125,7 +125,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/mdwqgrB">
-<img src="Mentalista (Aula 03)/src/mentalista.gif" width="600px"/>
+<img src="Mentalista (Aula 03)/src/mentalista.gif" width="800px"/>
 </a>
 </div>
 
@@ -173,7 +173,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/GREywmJ">
-<img src="Aluraflix (Aulas 04 e 05)/src/aluraflix.gif" width="600px"/>
+<img src="Aluraflix (Aulas 04 e 05)/src/aluraflix.gif" width="800px"/>
 </a>
 </div>
 
@@ -181,7 +181,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/QWgQJJv">
-<img src="Conversor de moedas (Aulas 02 e 05)/src/conversor-moeda-v2.gif" width="600px"/>
+<img src="Conversor de moedas (Aulas 02 e 05)/src/conversor-moeda-v2.gif" width="800px"/>
 </a>
 </div>
 
@@ -213,7 +213,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/RwgeGrM">
-<img src="Tabela de Classificação (Aula 06)/src/tabela-de-classificacao.gif" width="600px"/>
+<img src="Tabela de Classificação (Aula 06)/src/tabela-de-classificacao.gif" width="800px"/>
 </a>
 </div>
 
@@ -258,7 +258,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/jOwRRBm">
-<img src="Super Trunfo (Aulas 07 e 08)/src/super-trunfo.gif" width="600px"/>
+<img src="Super Trunfo (Aulas 07 e 08)/src/super-trunfo.gif" width="800px"/>
 </a>
 </div>
 
@@ -292,7 +292,7 @@ Durante 10 (dez) dias foram desenvolvidos os projetos que seguem abaixo.
 
 <div align="center">
 <a href="https://codepen.io/rhamandalima/full/vYZMwMW">
-<img src="Portfólio (Aulas 09 e 10)/src/portfolio.gif" width="600px"/>
+<img src="Portfólio (Aulas 09 e 10)/src/portfolio.gif" width="800px"/>
 </a>
 </div>
 
